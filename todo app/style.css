@@ -4,62 +4,43 @@ body{
     background-attachment: fixed;
 
 }
-
-#colo{
-    border: 2px solid black;
-    border-radius: 10px 5px 10px 5px;
-    margin-top: 5rem;
-    width: 60vw;
-    height: 70vh;
-    background-image: url(Virgin\ America.jpg);
-    margin-left: 20rem;
-    overflow: auto;
-}
-
-#todo_app::placeholder{
-    color: black;
-    font-weight: bold;
-}
-
-#todo_app{
-    margin-left: 10px;
+div{
     text-align: center;
-    margin-top: 20px;
-    color: black;
-    width: 40vw;
-    height: 5vh;
-    background-color: 
-    white ;
-    outline: none;
-    font-weight: bold;
-    /* border: 4px solid #dc2430  ; */
-}
-#add{
-    margin-left: 1em;
-    width: 6vw;
-    color: black;
-    font-weight: bold;
-    /* text-decoration: underline #dc2430 2px solid; */
-    height: 6vh;
-    /* border: 5px dotted blue; */
-    background-color: white;
 }
 
-.btn{
-    background-color: white;
-    margin-left: 10px;
-    color: black;
+#mainInput{
+    width: 20vw;
+    height: 6vh;
+    /* border-radius: 10px 5px 10px 10px; */
+    outline: none;
+    color: blue;
     font-weight: bold;
+    /* background-color: lightblue; */
+    border: 3px solid white;
+}
+
+.text-center{
+    color:white;
+    word-spacing: 3px;
+    text-decoration: 3px solid underline;
+     
+}
+
+button{
     width: 5vw;
     height: 5vh;
-    border: 5px solid #7b4397;
-    border-radius: 15px;
+    background-color: white;
+    border: 3px solid white;
+    font-weight: bold;
 }
-
-#heading{
-    text-align: center;
-    color: white;
-    text-decoration: underline dashed white;
+#came{
+    border: 4px solid white;
+    width: 50vw;
+    height: 70vh;
+    overflow: auto;
+    margin-top: 5em;
+    background-color: palevioletred;
+    margin-left: 20em;
 }
 
 
